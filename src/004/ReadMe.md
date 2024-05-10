@@ -62,13 +62,15 @@ Every website needs a web server in order for people to view the pages. When we 
 
 ## Software Design ![Docs](https://img.shields.io/badge/Documentation%20Status-100%25%20Complete-brightgreen?logo=Read%20the%20Docs)
 
-"Tight coupling" makes for bad design, because changes in either area can potentially "break" the other areas.
-
-![Bad](./images/BadDesign.png)
+"Tight coupling" makes for bad design, because changes in either area can potentially "break" the other areas. 
 
 "Loose coupling" between the areas of Content, Presentation, and Functionality makes for a flexible design that is easy to maintain.
 
-![Good](./images/GoodDesign.png)
+| Tight Coupling | Loose Coupling |
+|:--------------:|:--------------:|
+| ![Bad](./images/BadDesign.png) | ![Good](./images/GoodDesign.png) |
+
+
 
 This is not to say that content, presentation and functionality have no reference to each other. It's just that we want the connections between them to be ["unobtrusive"](https://dictionary.cambridge.org/dictionary/english/unobtrusive). In the case of web pages, it's the browser's job to bring together HTML, CSS and JavaScript files; this happens in the rendering process for the page.
 
