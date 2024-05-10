@@ -2,6 +2,8 @@
 
 We often learn best by play. That's why it's so nice to have a sandbox laying around. In this lesson, we're going to explore two playgrounds for experimenting with JavaScript. The first is in your browser, and the second is using the Node environment.
 
+In this lesson, we're going to explore **variables**, **values** and **data types** in JavaScript. Along the way, we'll see how some of the *math operators* work. At the end, you'll have a chance to bring in any other websites you've played with in other courses and fill your sandbox with toys for future adventures!
+
 ## REPL in your Browser
 
 > "The acronym **REPL** stands for read-eval-print loop and basically provides a programmer with an interactive programming environment."
@@ -131,6 +133,8 @@ Take your live-demo one step farther by making it into a JavaScript project with
 > One of the ways we are wired to learn is by play. I encourage you to apply what we're learning in our classes to something that personally interests you!
 
 If you don't already have one, create a folder at the root of your repository called **`sandbox`** and use it as a place to experiment. Do you have a favorite web page you made in a previous course? See what you can do to add interactions using JavaScript! Is there something you learned in class that interested you? Turn what you learned into its own web page as a summary lesson!
+
+> **Tip:** Do you like to play a lot? It's best to have each experimental website in its own folder. When you add your favorites to the `sandbox` folder, be sure that each one of them is in their own subfolder to keep them from getting in each others way. If you have a bunch of related HTML pages (maybe even with links between them), keep them together under their own folder. It could get crowded in here, so some planning is in order!
 
 
 ![Playground](./images/markus-spiske-dWaRJ3WBnGs-unsplash.jpg)
