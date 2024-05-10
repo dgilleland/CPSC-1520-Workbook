@@ -2,6 +2,8 @@
 
 > - [ ] TODO: Review/update instructions in student starterkit.
 
+We often learn best by play. That's why it's so nice to have a sandbox laying around. In this lesson, we're going to explore two playgrounds for experimenting with JavaScript. The first is in your browser, and the second is using the Node environment.
+
 ## REPL in your Browser
 
 > "The acronym **REPL** stands for read-eval-print loop and basically provides a programmer with an interactive programming environment."
@@ -122,9 +124,23 @@ A copy of the `live-demo` from lesson `003` has been included in this lesson's s
 
 In that file, generate examples that demonstrate each of the items in the [Learning Outcome Guide](./LOGs.md) for this lesson. Additionally, go beyond this lesson to explore additional members of the `Math` object in JavaScript. For example, you could explore the use of the functions that are available for trigonometry.
 
+#### One Step Farther
+
+Take your live-demo one step farther by making it into a JavaScript project with Vite as the web server. If you don't remember exactly how to do that, revisit the previous lesson for the details.
+
 ### Create a Sandbox
 
 > One of the ways we are wired to learn is by play. I encourage you to apply what we're learning in our classes to something that personally interests you!
 
 Create a folder at the root of your repository called **`sandbox`** and use it as a place to experiment. Do you have a favorite web page you made in a previous course? See what you can do to add interactions using JavaScript! Is there something you learned in class that interested you? Turn what you learned into its own web page as a summary lesson!
 
+
+![Playground](./images/markus-spiske-dWaRJ3WBnGs-unsplash.jpg)
+
+
+----
+
+## Credits
+
+- Sandbox Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/selective-focus-photo-of-toy-trailer-filled-of-brown-sands-dWaRJ3WBnGs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+  
