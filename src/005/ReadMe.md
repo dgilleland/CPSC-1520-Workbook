@@ -96,6 +96,8 @@ total.toFixed(2)
 
 When you are done with a REPL, you can save the session to a file. To do so, type `.save` followed by the name of the file you want to save to. For example, you could type `.save mySession.js` to save the session to a file named `mySession.js`. You can then exit the REPL and open the file in VS Code to see the results.
 
+> **Tip:** If you start `node` inside the folder of this lesson, then when you save the file it will be inside this folder. Always try to pay attention to what folder you are in when running commands in the command prompt. It can make your life *so* much easier!
+
 To load a saved session, type `.load` followed by the name of the file you want to load. For example, you could type `.load mySession.js` to load the session from the file named `mySession.js`.
 
 The saved session is a JavaScript file, so you can edit it in VS Code and then load it back into the REPL to continue working with it. This is a great way to experiment with code snippets without having to create an entirely new project.
