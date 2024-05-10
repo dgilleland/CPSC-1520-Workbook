@@ -64,7 +64,7 @@ Perform the following steps in the terminal.
 1. Edit the `ReadMe.md` file for your notes to include links to the two new files in your notes folder.
 1. Commit these changes to your repository and synchronize it with the copy on GitHub.
 1. In the terminal, type `gh browse` to open your repository in the browser. Ensure that your changes have been synchronized.
-1. Part of your homework will be to review the **Mastering Markdown** resource.
+1. Part of your homework will be to review the **Mastering Markdown** resource. Create one or more sample files in your *`mynotes/`* folder to store your practice.
 
 ## Editing Your GitHub Profile
 
