@@ -2,6 +2,10 @@
 
 > This presumes that you've installed the required software and have familiarized yourself with this workbook repository's content. Please review the [`ReadMe.md`](../../ReadMe.md) at the root of this repository for more information.
 
+The focus of this lesson is to become comfortable with working in a terminal environment. Terminals (also called "command prompts" or "shells") are where we can run various small applications to perform tasks related to our software projects.
+
+----
+
 ## Working In The Terminal
 
 1. Open the terminal in Visual Studio Code by pressing <kbd>Ctrl</kbd> + <kbd>~</kbd>. This key combination is used to toggle the terminal between open and closed states. Note how the path in the terminal is the location that you have cloned your workbook.
@@ -12,6 +16,18 @@
    1. `ls` or `dir` - List the contents of the current directory
    1. `clear` or `cls` - Clear the terminal screen
    1. `exit` - Exit the terminal
+
+## Checking Your Software Installations
+
+Do you know what software you are running? Perform the following steps in the terminal.
+
+1. Type `git --version` to see what version of `git` you have.
+1. Most CLI apps like git support the `--version` flag. Try it with the following applications.
+    - `node --version`
+    - `npm --version`
+    - `gh --version`
+    - `pnpm --version`
+1. If any of these produce an error when trying to get the version, refer to the list of required software in the [ReadMe.md](../../ReadMe.md) at the root of this repository.
 
 ## Version Control Setup
 
