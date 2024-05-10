@@ -2,6 +2,8 @@
 
 > Are you keeping up with your Journal? Consider making a separate markdown file for a *glossary of terms* (`glossary.md`) that you can refer to later on.
 
+You should already be familiar with HTML and CSS from your course on those subjects. And you should know how to use your web browser. You likely have already seen the **Developer Tools** that are built into your browser. If so, then this might be mostly a review. Otherwise, this lesson should help you discover how these developer tools can aid you in your exploration of JavaScript and it's use within web pages.
+
 ## Learn to Think in Terms of *Objects*
 
 The focus of this lesson is on using the Developer Tools in the browser. A web browser is a tool used to render and interact with **web pages**. It offers a rich set of pre-defined objects as part of its **rendering engine**. The objects are part of the **DOM API**.
