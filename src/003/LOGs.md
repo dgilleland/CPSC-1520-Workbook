@@ -3,8 +3,13 @@
 *At the end of this lesson, you should be able to...*
 
 - [ ] Access the developer tools in the Chrome browser
-- [ ] Describe what is meant by a "case-sensitive" programming language
-- [ ] Describe the terms "keyword", "operator", "variable" and "grammar" as they relate to programming languages in general
+- [ ] Explain what is meant by stating that the Console tab in the browser's developer tools is a "REPL"
+  - A REPL is a Read-Evaluate-Print-Loop. It is a programming environment that allows you to enter code, have it executed, and see the results immediately. The console in the browser's developer tools is a REPL in that we can enter JavaScript code, have it executed, and see the results immediately.
+- [ ] Explain what is meant by the statement "JavaScript is a 'case-sensitive' programming language"
+- [ ] Describe the terms ["keyword"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords), "operator", ["identifier"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#identifiers),  "variable" and "grammar" as they relate to programming languages in general
+- [ ] List the [reserved words](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words) that cannot be used as identifiers for variables, functions, classes, etc. in JavaScript
+- [ ] List and categorize the different types of [Statements and Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) in JavaScript
+- [ ] Distinguish between [statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements#difference_between_statements_and_declarations) in JavaScript
 - [ ] Define the acronym DOM
 - [ ] Define the acronym API
 - [ ] Describe the purpose of the `document` object
