@@ -149,6 +149,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
       let { fullName, suffix, born, age } = person
       ```
 
+1. Vanilla JavaScript Components
+   - Have students read/implement/adapt the samples from the article ["The Vanilla JavaScript Component Pattern"](https://dev.to/megazear7/the-vanilla-javascript-component-pattern-37la)
+   - 
 1. TBD
 
 ----
