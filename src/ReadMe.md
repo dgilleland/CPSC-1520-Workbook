@@ -120,6 +120,14 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - `.search()`
      - `.repeat()`
      - `.split()`
+1. Add/Remove/Toggle Classes in JavaScript
+1. DOM Events and Listeners
+1. HTML Forms and JavaScript
+   - Client-Side Processing and `.preventDefault()`
+   - Forms and Dialogs
+1. Decisions: Alternate Paths of Logic
+1. JavaScript Arrays
+1. Loops: Repetition
 1. --- others ---
 1. Destructuring Assignments
    - Destructuring Arrays
