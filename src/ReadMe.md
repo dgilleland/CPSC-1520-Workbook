@@ -33,6 +33,24 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
 ## Starter Kits
 
+- [MDN Curriculum - JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/)
+  - [6.1 Variables](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.1_variables)
+  - [6.2 Math](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.2_math)
+  - [6.3 Text](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.3_text)
+  - [6.4 Arrays](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.4_arrays)
+  - [6.5 Conditionals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.5_conditionals)
+  - [6.6 Loops](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.6_loops)
+  - [6.7 Functions](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.7_functions)
+  - [6.8 JavaScript object basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.8_javascript_object_basics)
+  - [6.9 DOM scripting](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.9_dom_scripting)
+  - [6.10 Events](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.10_events)
+  - [6.11 Async JavaScript basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.11_async_javascript_basics)
+  - [6.12 Network requests with fetch()](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.12_network_requests_with_fetch)
+  - [6.13 Working with JSON](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.13_working_with_json)
+  - [6.14 Libraries and frameworks](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.14_libraries_and_frameworks)
+  - [6.15 Debugging JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.15_debugging_javascript)
+
+
 1. Course Intro
    - [**000**](./000/ReadMe.md)
 1. CLIs, Version Control and Markdown (*Week 0*)
@@ -87,6 +105,11 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - In the node REPL, type `Math.` and hit <kbd>tab</kbd> twice
    - String concatenation with `+` operator
    - Template strings and `${placeholders}`
+1. Object fundamentals
+   - Object Literal Syntax
+   - Members: Properties and Functions
+     - **Dot notation**: The ever-humble, often-present **Property Accessor** - `.`
+   - Objects are so much more... *(foreshadow Classes)*
 1. DOM Elements as JavaScript Objects
    - Inspecting Elements in the Developer Tools (`$0`)
    - The Complexity of DOM objects
@@ -120,15 +143,114 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - `.search()`
      - `.repeat()`
      - `.split()`
-1. Add/Remove/Toggle Classes in JavaScript
+1. DOM Styling in JavaScript
+   - The `.classList` attribute
+     - Add/Remove/Toggle
+   - The `.style` attribute
+     - Specific classnames
+   - Exploring via the Browser's Console (Dev Tools)
+   - Intellisense in VS Code by using `.` after query-selecting DOM
 1. DOM Events and Listeners
+   - Different kinds of events:
+     - User-initiated events: mouse, keyboard
+     - DOM-initiated events: page is loaded, page is navigating away, browser is losing focus or gaining focus (*yes, those annoying ads when you leave/re-enter a page*)
+   - Adding Event Listeners
+     - You can have multiple listeners for a single event
+   - Event bubbling
+   - Cancelling default behaviour
+     - Stopping navigation of an `<a href>`
+   - Functions as variables and "callbacks"
+1. Function Callbacks
+   - Expecting a function as a parameter
+   - Passing a function as an argument
+   - Recursion
 1. HTML Forms and JavaScript
    - Client-Side Processing and `.preventDefault()`
    - Forms and Dialogs
 1. Decisions: Alternate Paths of Logic
-1. JavaScript Arrays
+   - `if`/`else` statements as "flow-control"
+     - "Truthy" and "Falsy" values
+     - Simple conditional expressions
+     - `&&`, `||` and `!`
+   - `if` statements as "validation" (e.g.: *guard clauses* in functions)
+     - `typeof` and `instanceof`
+     - Other types of validations (in-range)
 1. Loops: Repetition
+   - Grammar of
+     - `while() {}`
+     - `do{}while()`
+     - `for(init;compare;inc){}`
+   - Algorithms:
+     - Fibonacci
+       - Display the sequence
+       - Get a single value
+     - Factorial
+       - Get the value
+     - IsPrime
+       - internally it will loop with a counter
+         - What's the most efficient way? (`Math.sqrt()` as the stopping point)
+       - We can call IsPrime inside a loop to find all the prime numbers up to 500
+     - Loop through numbers to find all the "perfect squares" (square root is a whole number) up to 1000
+     - Find all the factors of a number
+       - Accept a call-back function
+         - Display to the console
+         - Append to a DOM element's `.innerHTML`
+     - IsPerfect - the number is the product and sum of all its factors
+       - Do this **without** an array by having two callbacks to the `findFactors()` example above
+     - **Loop within a loop**
+       - Multiplication table as an HTML Table
+       - *Prep for **In-Class-5***
+1. JavaScript Arrays
+   - Declare empty array - `[]` - and initialize array with values
+   - `.length` and `.push()` and `.pop()`
+   - Arrays of
+     - strings
+     - numbers
+     - "mixed" types
+   - `.join()`
+   - Manually looping through the array
+     - to aggregate (equivalent of `.reduce()`)
+     - to search (equivalent of `.find()`)
+   - Arrays and indexes; e.g.:
+     - direct access
+     - use in a traditional `for` loop
+     - *for-in* vs. *for-of*
+   - Arrays as arguments/parameters to functions
+   - Returning Arrays from functions
+1. Node Collections vs. Arrays
+   - Similarities
+     - Array Indexers
+   - Differences
+     - Lacks the *`Array`* methods
+     - `.size` vs. `.length`
+1. Fetch API
+   - Promises and async/await
+   - Fetch in your "domain"
+   - Fetch outside your "domain"
+     - Option Headers
+1. DOM API
+   - Creating Elements & Nodes
+     - `document.createElement()`
+     - `document.createTextNode()`
+   - Shadow DOM vs. DOM Fragments vs. DOM
+   - Moving Elements in the DOM
+     - Drag'n'Drop
+1. Timers
+   - `setTimeout()` and `clearTimeout()`
+   - `setInterval()` and `clearInterval()`
+   - `setImmediate()` and `clearImmediate()`
+1. Array API
+   - Array functions:
+   - `Array.from()`
 1. --- others ---
+1. Advanced Objects
+   - Constructor function and `new`
+   - Classes
+   - Prototypes
+   - Prototypical Inheritance
+1. Advanced Functions
+   - Returning functions from functions
+   - Promises and Async functions
 1. Destructuring Assignments
    - Destructuring Arrays
 
@@ -156,10 +278,12 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
       // undefined value.
       let { fullName, suffix, born, age } = person
       ```
-
 1. Vanilla JavaScript Components
    - Have students read/implement/adapt the samples from the article ["The Vanilla JavaScript Component Pattern"](https://dev.to/megazear7/the-vanilla-javascript-component-pattern-37la)
    - 
+1. Other Node Project Types
+   - JavaScript Console Applications
+   - Web Applications on Frameworks
 1. TBD
 
 ----
