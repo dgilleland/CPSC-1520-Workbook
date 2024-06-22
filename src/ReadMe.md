@@ -57,11 +57,12 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
 1. *Content, Content, Content!*
-   - **Exercise:** Gather/Create as much [content](https://github.com/Programming-0101/Content-Is-King) as you can.
+   - **Exercise:** Gather/Create as much [content](https://github.com/Programming-0101/Content-Is-King) as you can. Place it as *Markdown* documents and locally-saved images inside this folder.
      - [ ] 2 Articles
      - [ ] 3 Blog Posts
      - [ ] 12 Images (Unsplash/icons8)
-     - [ ] 10 [Line-Awesome icons](https://icons8.com/line-awesome)
+     - [ ] 10 [Line-Awesome icons](https://icons8.com/line-awesome) (embed in a Markdown table as `<i class="fas fas-example"></i>` with a link to the CDN:
+       - `<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >`      
      - [ ] 5 Inspirational Quotes
      - [ ] 1 User Profile (based on ***you***)
 1. JavaScript Environments - *In each environment, declare variables and assign values.*
