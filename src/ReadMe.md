@@ -56,6 +56,14 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 1. CLIs, Version Control and Markdown (*Week 0*)
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
+1. *Content, Content, Content!*
+   - **Exercise:** Gather/Create as much [content](https://github.com/Programming-0101/Content-Is-King) as you can.
+     - [ ] 2 Articles
+     - [ ] 3 Blog Posts
+     - [ ] 12 Images (Unsplash/icons8)
+     - [ ] 10 [Line-Awesome icons](https://icons8.com/line-awesome)
+     - [ ] 5 Inspirational Quotes
+     - [ ] 1 User Profile (based on ***you***)
 1. JavaScript Environments - *In each environment, declare variables and assign values.*
    - What is a REPL? *Read-Eval-Print Loop*
    - The browser Developer Tools' *Console* tab as a REPL
