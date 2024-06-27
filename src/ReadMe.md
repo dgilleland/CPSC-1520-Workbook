@@ -65,6 +65,10 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
        - `<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >`      
      - [ ] 5 Inspirational Quotes
      - [ ] 1 User Profile (based on ***you***)
+1. Brief Intro to Developer Tools - A Short Tour *(15-20 min)*
+   - Your Browser's **Developer Tools** (F12)
+   - Inspecting HTML
+   - Source Files
 1. JavaScript Environments - *In each environment, declare variables and assign values.*
    - What is a REPL? *Read-Eval-Print Loop*
    - The browser Developer Tools' *Console* tab as a REPL
@@ -98,6 +102,13 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - What are Objects?
      - What are Arrays?
      - Functions as Objects
+1. 🐞 Short Intro to Debugging
+   - Low Fidelity Debugging
+     - `conole.log` as "breadcrumbs"
+   - High Fidelity Debugging
+     - pausing execution with breakpoints + `debugger;` statement
+     - Variables & Values
+     - stepping through code
 1. A Primer on Functions
    - What is a function?
      - *A set of instructions for manipulating information*
@@ -108,6 +119,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - Global `console` object and `.log()`, `.error()`, `.info()` (browser and node)
      - **Dot notation**: The ever-humble, often-present **Property Accessor** - `.`
      - Members of `console`: in the node REPL, type `console.` and then hit <kbd>tab</kbd> twice.
+1. 🐞 Revisit Debugging
+   - Call stack
+   - "scope" concepts
 1. A Gentle Introduction to Math and Operators
    - Numbers and arithmetic operators
    - Global `Math` object and utility functions/properties
@@ -119,6 +133,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Members: Properties and Functions
      - **Dot notation**: The ever-humble, often-present **Property Accessor** - `.`
    - Objects are so much more... *(foreshadow Classes)*
+   - 🐞 Observe in the debugger
 1. DOM Elements as JavaScript Objects
    - Inspecting Elements in the Developer Tools (`$0`)
    - The Complexity of DOM objects
@@ -173,6 +188,11 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Expecting a function as a parameter
    - Passing a function as an argument
    - Recursion
+1. 🐞 More Debugging
+   - Breaking in VS Code vs. Browser Dev Tools
+   - Breakpoints
+     - Source Code
+     - On Events
 1. HTML Forms and JavaScript
    - Client-Side Processing and `.preventDefault()`
    - Forms and Dialogs
@@ -226,6 +246,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - *for-in* vs. *for-of*
    - Arrays as arguments/parameters to functions
    - Returning Arrays from functions
+1. 🐞 Upskill Your Debugging
+   - [How to Debug Code Like a Pro](https://youtu.be/uUDRh7D5Z0c?si=g6FP0yv8SGnHImJs)
+   - [Chrome Debugger is BETTER than you might think](https://youtu.be/t1aEXEvYzvM?si=oMkxKOpDCcLpIgaW)
 1. Node Collections vs. Arrays
    - Similarities
      - Array Indexers
