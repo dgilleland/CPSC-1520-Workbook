@@ -247,6 +247,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Arrays as arguments/parameters to functions
    - Returning Arrays from functions
 1. 🐞 Upskill Your Debugging
+   - **Keep Your Code Clean** - *If you use `console.log()`, **remove them** when done!*
    - [How to Debug Code Like a Pro](https://youtu.be/uUDRh7D5Z0c?si=g6FP0yv8SGnHImJs)
    - [Chrome Debugger is BETTER than you might think](https://youtu.be/t1aEXEvYzvM?si=oMkxKOpDCcLpIgaW)
 1. Node Collections vs. Arrays
