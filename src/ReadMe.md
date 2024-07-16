@@ -93,6 +93,14 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - Multi-page demo (for paths and the "web root")
    - An aside on file structure
    - An aside on Classless CSS (e.g.: picocss)
+   - A note on Standards
+     - File Organization
+       - 📂 css
+       - 📂 img
+       - 📂 js
+       - index.html
+     - Code Style Guide - *You should take note of your instructor's patterns in writing their JavaScript/CSS/HTML code and follow that. It's typically easier to pick up the standards by reviewing your instructor's code as opposed to simply reading a standards document.*
+       - For JavaScript, the preferred code style guide to use can be found [here](https://github.com/style-guides/JavaScript?tab=readme-ov-file#guide). Also consider the guidelines used by [MDN for their code samples](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
 1. Variables, Values and Data Types
    - List & describe JavaScripts built-in data types
    - Explore `var`, `let` and `const`
