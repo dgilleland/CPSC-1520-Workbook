@@ -53,6 +53,8 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
 1. Course Intro
    - [**000**](./000/ReadMe.md)
+   - External Resources
+     - :100: [JavaScript Full Course](https://youtu.be/lfmg-EJ8gm4?si=5kahh_2OkG4DZKiT) (for free) - a 12 hour video that covers the full extent of JavaScript for beginners. Well paced and appropriate level of detail. Includes sample projects (e.g.: Digital Clock, Stopwatch, Calculator, Rock-Paper-Scissors Game, Image Slider, Weather App using live APIs).
 1. CLIs, Version Control and Markdown (*Week 0*)
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
