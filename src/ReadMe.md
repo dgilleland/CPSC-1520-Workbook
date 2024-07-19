@@ -68,6 +68,8 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
        - `<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >`      
      - [ ] 5 Inspirational Quotes
      - [ ] 1 User Profile (based on ***you***)
+   - **Side Project Ideas:** Coming up with side-project ideas that you can pursue on your own is an excellent way to deepen your skills. Here's some places to look to generate your ideas.
+     - [ ] [**Gizmos**](https://gizmos.explorelearning.com/find-gizmos/free-gizmos) - Emulate the ideas yourself or just use the info inside for any math/science stuff you want to use. For example, you can use the [Trebuchet](https://gizmos.explorelearning.com/find-gizmos/launch-gizmo?resourceId=1054) example and read the [PDF](https://el-gizmos.s3.amazonaws.com/grizzly/materials/TrebuchetSE.pdf) to get formulas, etc.
 1. Brief Intro to Developer Tools - A Short Tour *(15-20 min)*
    - Your Browser's **Developer Tools** (F12)
    - Inspecting HTML
