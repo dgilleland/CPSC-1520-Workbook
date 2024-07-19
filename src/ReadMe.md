@@ -56,7 +56,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - External Resources
      - :100: [JavaScript Full Course](https://youtu.be/lfmg-EJ8gm4?si=5kahh_2OkG4DZKiT) (for free) - a 12 hour video that covers the full extent of JavaScript for beginners. Well paced and appropriate level of detail. Includes sample projects (e.g.: Digital Clock, Stopwatch, Calculator, Rock-Paper-Scissors Game, Image Slider, Weather App using live APIs).
      - :100: [JavaScript Tutorial Full Course - Beginner to Pro (2024)](https://youtu.be/EerdGm-ehJQ?si=aCTAym11xZ_x1bSP) - a 22 hour video that covers the full extent of JavaScript for beginners, with over 250 exercises. Includes an overall sample project of building an Amazon-like website.
-     - [JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2024](https://youtu.be/Pyv0tMm5i_w?si=EMv8l_Q_wsTbmACE) - almost 8 hour video covering all the basics of JavaScript. Speaker has an East Indian accent, but their English is quite understandable.
+     - [JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2024](https://youtu.be/Pyv0tMm5i_w?si=EMv8l_Q_wsTbmACE) - almost 8 hour video covering all the basics of JavaScript. Speaker has an East Indian accent, but their English is quite understandable. Projects in the video include an Online Notes App, Quiz App, Form Validation, Image Slide, Digital Clock, and Ecommerce Product Page
 1. CLIs, Version Control and Markdown (*Week 0*)
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
