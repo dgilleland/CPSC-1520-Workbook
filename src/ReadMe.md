@@ -210,6 +210,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 1. HTML Forms and JavaScript
    - Client-Side Processing and `.preventDefault()`
    - Forms and Dialogs
+   - :pushpin: *Side Quest* - [How to Create Float Input Label using HTML and CSS](https://youtu.be/QCg7-pVbid8?si=Tq-WmJvC5IZxPLcw) - Excellent for a nice visualization of an input, but also helpful later on for creating a *component* or *module* with those stylistic features.
 1. Decisions: Alternate Paths of Logic
    - `if`/`else` statements as "flow-control"
      - "Truthy" and "Falsy" values
