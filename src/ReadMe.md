@@ -243,6 +243,8 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
          - Append to a DOM element's `.innerHTML`
      - IsPerfect - the number is the product and sum of all its factors
        - Do this **without** an array by having two callbacks to the `findFactors()` example above
+     -Random Statistics
+       - Loop for 100,000 times and a) guess a coin flip then b) flip a coin. Gather the highest stretch of correct guesses
      - **Loop within a loop**
        - Multiplication table as an HTML Table
        - *Prep for **In-Class-5***
@@ -257,6 +259,8 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Manually looping through the array
      - to aggregate (equivalent of `.reduce()`)
      - to search (equivalent of `.find()`)
+     -Random Statistics
+       - Loop for 100,000 times and a) guess a coin flip then b) flip a coin. Gather an array of the number of correct guesses in a row and the number of incorrect guesses in a row. e.g.: `correct = [832, 75, 16, 18, ...]` where the first index `0` is for `1` correct guess followed by an incorrect guess and index `1` is for `2` correct guesses followed by an incorrect guess, etc.
    - Arrays and indexes; e.g.:
      - direct access
      - use in a traditional `for` loop
