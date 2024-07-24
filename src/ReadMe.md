@@ -277,6 +277,12 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Differences
      - Lacks the *`Array`* methods
      - `.size` vs. `.length`
+1. JSON
+   - JSON as Data
+   - Objects to JSON
+   - `JSON.stringify()` and `JSON.parse()`
+   - Sample Data: [Viewport Sizes](https://slash5.viewportsizer.com/wp-content/uploads/viewportsizer-json.zip) (from [ViewPortSizer.com](https://viewportsizer.com/devices/))
+     - *Side Note:* This is a nice article on [Common Screen Sizes for Responsive Design](https://www.altamira.ai/blog/common-screen-sizes-for-responsive-web-design/)
 1. Fetch API
    - Promises and async/await
    - Fetch in your "domain"
