@@ -31,25 +31,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
 ----
 
-## Starter Kits
+## Course Content
 
-- [MDN Curriculum - JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/)
-  - [6.1 Variables](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.1_variables)
-  - [6.2 Math](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.2_math)
-  - [6.3 Text](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.3_text)
-  - [6.4 Arrays](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.4_arrays)
-  - [6.5 Conditionals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.5_conditionals)
-  - [6.6 Loops](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.6_loops)
-  - [6.7 Functions](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.7_functions)
-  - [6.8 JavaScript object basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.8_javascript_object_basics)
-  - [6.9 DOM scripting](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.9_dom_scripting)
-  - [6.10 Events](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.10_events)
-  - [6.11 Async JavaScript basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.11_async_javascript_basics)
-  - [6.12 Network requests with fetch()](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.12_network_requests_with_fetch)
-  - [6.13 Working with JSON](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.13_working_with_json)
-  - [6.14 Libraries and frameworks](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.14_libraries_and_frameworks)
-  - [6.15 Debugging JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.15_debugging_javascript)
-
+> *The following outline lists details of content to be delivered. It is arranged in (recommended) order of delivery.*
 
 1. Course Intro
    - [**000**](./000/ReadMe.md)
@@ -351,7 +335,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 1. TBD
 
 
-#### Node REPL
+### Node REPL
 
 For instructors, it is recommended to use Node REPLs for basic JavaScript-only concepts. This includes
 
@@ -366,7 +350,34 @@ For instructors, it is recommended to use Node REPLs for basic JavaScript-only c
 
 ----
 
-### MDN JavaScript Course Materials
+## MDN JavaScript Course Materials
+
+MDN offers curriculum materials for HTML, CSS, JavaScript, etc.
+
+### Starter Kits
+
+- [MDN Curriculum - JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/)
+  - [6.1 Variables](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.1_variables)
+  - [6.2 Math](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.2_math)
+  - [6.3 Text](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.3_text)
+  - [6.4 Arrays](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.4_arrays)
+  - [6.5 Conditionals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.5_conditionals)
+  - [6.6 Loops](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.6_loops)
+  - [6.7 Functions](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.7_functions)
+  - [6.8 JavaScript object basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.8_javascript_object_basics)
+  - [6.9 DOM scripting](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.9_dom_scripting)
+  - [6.10 Events](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.10_events)
+  - [6.11 Async JavaScript basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.11_async_javascript_basics)
+  - [6.12 Network requests with fetch()](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.12_network_requests_with_fetch)
+  - [6.13 Working with JSON](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.13_working_with_json)
+  - [6.14 Libraries and frameworks](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.14_libraries_and_frameworks)
+  - [6.15 Debugging JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.15_debugging_javascript)
+
+
+
+## *Legacy* Lessons
+
+> *The following are older lesson materials that might be suitable for re-purposing.*
 
 1. Introduction to JavaScript (*Week 1*)
    - [**003**](./003/ReadMe.md) - JavaScript in the Browser
