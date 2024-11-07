@@ -66,10 +66,13 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
             ```json
             [
-              { tagName: "main", 
-                categories: [ 
-                  { name: "Semantic", description: "short, plain text fact"}, ...]
-              }, ...
+              { "tagName": "main", 
+                "categories": [ 
+                  { "name": "Semantic", "description": "short, plain text fact"},
+                  { "name": "...", "description": "..."},
+                ]
+              },
+              { "tagName": "...", "categories": [] }
             ]
             ```
 
