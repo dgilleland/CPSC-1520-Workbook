@@ -50,17 +50,6 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 1. CLIs, Version Control and Markdown (*Week 0*)
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
-1. *Content, Content, Content!*
-   - **Exercise:** Gather/Create as much [content](https://github.com/Programming-0101/Content-Is-King) as you can. Place it as *Markdown* documents and locally-saved images inside this folder.
-     - [ ] 2 Articles
-     - [ ] 3 Blog Posts
-     - [ ] 12 Images ([Unsplash](https://unsplash.com/) | [icons8](https://icons8.com/) | [Freepik](https://www.freepik.com/)) - **Include Credits!**
-     - [ ] 10 [Line-Awesome icons](https://icons8.com/line-awesome) (embed in a Markdown table as `<i class="fas fas-example"></i>` with a link to the CDN:
-       - `<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >`      
-     - [ ] 5 Inspirational Quotes
-     - [ ] 1 User Profile (based on ***you***)
-   - **Side Project Ideas:** Coming up with side-project ideas that you can pursue on your own is an excellent way to deepen your skills. Here's some places to look to generate your ideas.
-     - [ ] [**Gizmos**](https://gizmos.explorelearning.com/find-gizmos/free-gizmos) - Emulate the ideas yourself or just use the info inside for any math/science stuff you want to use. For example, you can use the [Trebuchet](https://gizmos.explorelearning.com/find-gizmos/launch-gizmo?resourceId=1054) example and read the [PDF](https://el-gizmos.s3.amazonaws.com/grizzly/materials/TrebuchetSE.pdf) to get formulas, etc.
 1. The Web - JavaScript in Context
    - "Two paths diverged..."
      - New to HTML/CSS
@@ -94,6 +83,17 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
              - Common Attributes: id, class, style, title
              - Specialized Attributes: img[alt,src],
          - Check-list of the tags you already know
+1. *Content, Content, Content!*
+   - **Exercise:** Gather/Create as much [content](https://github.com/Programming-0101/Content-Is-King) as you can. Place it as *Markdown* documents and locally-saved images inside this folder.
+     - [ ] 2 Articles
+     - [ ] 3 Blog Posts
+     - [ ] 12 Images ([Unsplash](https://unsplash.com/) | [icons8](https://icons8.com/) | [Freepik](https://www.freepik.com/)) - **Include Credits!**
+     - [ ] 10 [Line-Awesome icons](https://icons8.com/line-awesome) (embed in a Markdown table as `<i class="fas fas-example"></i>` with a link to the CDN:
+       - `<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >`      
+     - [ ] 5 Inspirational Quotes
+     - [ ] 1 User Profile (based on ***you***)
+   - **Side Project Ideas:** Coming up with side-project ideas that you can pursue on your own is an excellent way to deepen your skills. Here's some places to look to generate your ideas.
+     - [ ] [**Gizmos**](https://gizmos.explorelearning.com/find-gizmos/free-gizmos) - Emulate the ideas yourself or just use the info inside for any math/science stuff you want to use. For example, you can use the [Trebuchet](https://gizmos.explorelearning.com/find-gizmos/launch-gizmo?resourceId=1054) example and read the [PDF](https://el-gizmos.s3.amazonaws.com/grizzly/materials/TrebuchetSE.pdf) to get formulas, etc.
 1. Brief Intro to Developer Tools - A Short Tour *(15-20 min)*
    - Your Browser's **Developer Tools** (F12)
    - Inspecting HTML
