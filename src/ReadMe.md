@@ -31,25 +31,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
 ----
 
-## Starter Kits
+## Course Content
 
-- [MDN Curriculum - JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/)
-  - [6.1 Variables](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.1_variables)
-  - [6.2 Math](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.2_math)
-  - [6.3 Text](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.3_text)
-  - [6.4 Arrays](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.4_arrays)
-  - [6.5 Conditionals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.5_conditionals)
-  - [6.6 Loops](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.6_loops)
-  - [6.7 Functions](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.7_functions)
-  - [6.8 JavaScript object basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.8_javascript_object_basics)
-  - [6.9 DOM scripting](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.9_dom_scripting)
-  - [6.10 Events](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.10_events)
-  - [6.11 Async JavaScript basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.11_async_javascript_basics)
-  - [6.12 Network requests with fetch()](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.12_network_requests_with_fetch)
-  - [6.13 Working with JSON](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.13_working_with_json)
-  - [6.14 Libraries and frameworks](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.14_libraries_and_frameworks)
-  - [6.15 Debugging JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.15_debugging_javascript)
-
+> *The following outline lists details of content to be delivered. It is arranged in (recommended) order of delivery.*
 
 1. Course Intro
    - [**000**](./000/ReadMe.md)
@@ -127,8 +111,12 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
       message // 42
       ```
 
-   - Node REPL
+   - [Node REPL](#node-repl)
      - `.help`
+     - `.save`
+     - `.load`
+     - `.editor`
+     - `.exit`
    - JavaScript as a Language: case-sensitive, loosly typed, "interpreted" vs. "compiled" (interpreted languages need an "environment" in which to run while compiled languages have their source code "compiled" into stand-alone executables or libraries)
 1. HTML Review and Web Servers
    - Viewing HTML Files in the Browser
@@ -137,13 +125,13 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - Bare-bones project with [Vite]() as a local server
      - Multi-page demo (for paths and the "web root")
    - An aside on file structure
-   - An aside on Classless CSS (e.g.: picocss)
-   - A note on Standards
      - File Organization
        - 📂 css
        - 📂 img
        - 📂 js
-       - index.html
+       - 🗒️ index.html
+   - An aside on Classless CSS (e.g.: picocss)
+   - A note on Standards
      - Code Style Guide - *You should take note of your instructor's patterns in writing their JavaScript/CSS/HTML code and follow that. It's typically easier to pick up the standards by reviewing your instructor's code as opposed to simply reading a standards document.*
        - For JavaScript, the preferred code style guide to use can be found [here](https://github.com/style-guides/JavaScript?tab=readme-ov-file#guide). Also consider the guidelines used by [MDN for their code samples](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
 1. Variables, Values and Data Types
@@ -383,7 +371,50 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Web Applications on Frameworks
 1. TBD
 
+
+### Node REPL
+
+For instructors, it is recommended to use Node REPLs for basic JavaScript-only concepts. This includes
+
+- **demos** of variables, assignments, math, etc., along with
+- **practices** where students can
+  - `.load` a setup script (e.g.: `Practice-23.js`)
+  - follow instructions on problem that needs solving
+  - `.save` their "explorations" and "discoveries" (e.g.: `Solution-23.js`)
+  - > These can even be run through automated tests to see if they were able to complete the problem.
+    >
+    > There is also the benefit of being able to review the student's progress, as the saved REPL will include all their mistakes, typos, etc. 
+
 ----
+
+## MDN JavaScript Course Materials
+
+MDN offers curriculum materials for HTML, CSS, JavaScript, etc.
+
+### Starter Kits
+
+- [MDN Curriculum - JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/)
+  - [6.1 Variables](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.1_variables)
+  - [6.2 Math](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.2_math)
+  - [6.3 Text](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.3_text)
+  - [6.4 Arrays](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.4_arrays)
+  - [6.5 Conditionals](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.5_conditionals)
+  - [6.6 Loops](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.6_loops)
+  - [6.7 Functions](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.7_functions)
+  - [6.8 JavaScript object basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.8_javascript_object_basics)
+  - [6.9 DOM scripting](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.9_dom_scripting)
+  - [6.10 Events](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.10_events)
+  - [6.11 Async JavaScript basics](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.11_async_javascript_basics)
+  - [6.12 Network requests with fetch()](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.12_network_requests_with_fetch)
+  - [6.13 Working with JSON](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.13_working_with_json)
+  - [6.14 Libraries and frameworks](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.14_libraries_and_frameworks)
+  - [6.15 Debugging JavaScript](https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/#6.15_debugging_javascript)
+
+
+
+## *Legacy* Lessons
+
+> *The following are older lesson materials that might be suitable for re-purposing.*
 
 1. Introduction to JavaScript (*Week 1*)
    - [**003**](./003/ReadMe.md) - JavaScript in the Browser
