@@ -53,12 +53,16 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
 
 1. Course Intro
    - [**000**](./000/ReadMe.md)
+     - Software: VS Code (et.al.)
+     - Workbook: GitHub account, getting your workbook, etc.
    - External Resources
      - :100: [JavaScript Full Course](https://youtu.be/lfmg-EJ8gm4?si=5kahh_2OkG4DZKiT) (for free) - a 12 hour video that covers the full extent of JavaScript for beginners. Well paced and appropriate level of detail. Includes sample projects (e.g.: Digital Clock, Stopwatch, Calculator, Rock-Paper-Scissors Game, Image Slider, Weather App using live APIs).
      - :100: [JavaScript Tutorial Full Course - Beginner to Pro (2024)](https://youtu.be/EerdGm-ehJQ?si=aCTAym11xZ_x1bSP) - a 22 hour video that covers the full extent of JavaScript for beginners, with over 250 exercises. Includes an overall sample project of building an Amazon-like website.
      - [JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2024](https://youtu.be/Pyv0tMm5i_w?si=EMv8l_Q_wsTbmACE) - almost 8 hour video covering all the basics of JavaScript. Speaker has an East Indian accent, but their English is quite understandable. Projects in the video include an Online Notes App, Quiz App, Form Validation, Image Slide, Digital Clock, and Ecommerce Product Page
      - :100: [HTML]() from the bro's
      - :100: [HTML & CSS Full Course - Beginner to Pro](https://youtu.be/G3e-cpL7ofc?si=uZTd9lS64Ao3eaij) - a 6.5 hour video on HTML/CSS
+1. Local Development
+   - [Visual Studio Code](https://code.visualstudio.com) as your primary development environment on your local computer 
 1. CLIs, Version Control and Markdown (*Week 0*)
    - [**001 - Start Here**](./001-StartHere/ReadMe.md) - Markdown & git
    - [**002**](./002/ReadMe.md) - More Markdown
@@ -73,6 +77,39 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - [ ] 1 User Profile (based on ***you***)
    - **Side Project Ideas:** Coming up with side-project ideas that you can pursue on your own is an excellent way to deepen your skills. Here's some places to look to generate your ideas.
      - [ ] [**Gizmos**](https://gizmos.explorelearning.com/find-gizmos/free-gizmos) - Emulate the ideas yourself or just use the info inside for any math/science stuff you want to use. For example, you can use the [Trebuchet](https://gizmos.explorelearning.com/find-gizmos/launch-gizmo?resourceId=1054) example and read the [PDF](https://el-gizmos.s3.amazonaws.com/grizzly/materials/TrebuchetSE.pdf) to get formulas, etc.
+1. The Web - JavaScript in Context
+   - "Two paths diverged..."
+     - New to HTML/CSS
+       - Minimal HTML:
+         - **Tags:** html, head, title, link, body, main, h1-6, p, img, div, span, b, i
+         - **Attributes:** id, class
+       - Minimal CSS:
+         - **Selectors:** tag, class, id
+         - **Styles:** color, background-color, font-weight, font-size
+       - > *Emphasize that there is a **lot more** in HTML/CSS, but in this course the HTML/CSS is given to you.* (with the exception of the `<script>` tag)
+     - HTML/CSS Review
+       - HTML Tag Review
+         - Quiz! Matching questions for HTML tags, where a *tag name* is to be matched against it's [purpose | usage | attributes]
+
+            ```json
+            [
+              { tagName: "main", 
+                categories: [ 
+                  { name: "Semantic", description: "short, plain text fact"}, ...]
+              }, ...
+            ]
+            ```
+
+           - Categorize as *(allowing overlap/duplication)*:
+             - Core HTML: html, head, body
+             - Head Tags: title, link, script 
+             - Semantic Tags: main, header, footer, article, h1-6, p, img, aside, figcaption
+             - Block Tags: h1-6, p, div, table
+             - Inline Tags: b, strong, i, em, span, img
+             - Form Tags: form, input, select, button, textarea, fieldset, legend
+             - Common Attributes: id, class, style, title
+             - Specialized Attributes: img[alt,src],
+         - Check-list of the tags you already know
 1. Brief Intro to Developer Tools - A Short Tour *(15-20 min)*
    - Your Browser's **Developer Tools** (F12)
    - Inspecting HTML
