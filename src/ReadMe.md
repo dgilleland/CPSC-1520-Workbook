@@ -176,7 +176,9 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - Object Literal Syntax
    - Members: Properties and Functions
      - **Dot notation**: The ever-humble, often-present **Property Accessor** - `.`
-   - Objects are so much more... *(foreshadow Classes)*
+   -Object variables are *references*
+     - *Pass by Reference* - e.g.: Pass an object to a function that changes the object's *state*
+   - Objects are/can be so much more... *(foreshadow Classes)*
    - 🐞 Observe in the debugger
 1. DOM Elements as JavaScript Objects
    - Inspecting Elements in the Developer Tools (`$0`)
@@ -294,6 +296,8 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
      - use in a traditional `for` loop
      - *for-in* vs. *for-of*
    - Arrays as arguments/parameters to functions
+     - Arrays are a special type of *object*; as such, they are passed by *reference*
+     - > "You might have already noticed..."
    - Returning Arrays from functions
 1. 🐞 Upskill Your Debugging
    - **Keep Your Code Clean** - *If you use `console.log()`, **remove them** when done!*
@@ -328,12 +332,15 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
    - `setInterval()` and `clearInterval()`
    - `setImmediate()` and `clearImmediate()`
 1. Array API
-   - Array functions:
-   - `Array.from()`
+   - Array methods: (see [MDN Reference on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array))
+   - Static Array functions:
+     - `Array.from()`
 1. --- others ---
 1. Advanced Objects
    - Constructor function and `new`
    - Classes
+   - Private vs. Public members
+   - Static vs. Instance members
    - Prototypes
    - Prototypical Inheritance
 1. Advanced Functions
@@ -366,6 +373,7 @@ $ pnpm dlx tiged --disable-cache --force DMIT-1234/Instructor-Workbook/src/008/d
       // undefined value.
       let { fullName, suffix, born, age } = person
       ```
+
 1. Vanilla JavaScript Components
    - Have students read/implement/adapt the samples from the article ["The Vanilla JavaScript Component Pattern"](https://dev.to/megazear7/the-vanilla-javascript-component-pattern-37la)
    - 
