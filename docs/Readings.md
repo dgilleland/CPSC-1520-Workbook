@@ -248,3 +248,9 @@ Log onto [Oreilly.com](https://www.oreilly.com/member/login/) by entering in you
     - [The Protocol](http://eloquentjavascript.net/18_http.html#h_G1xxLfiYeu)
     - [Browsers and HTTP](http://eloquentjavascript.net/18_http.html#h_G1xxLfiYeu)
     - [Fetch](http://eloquentjavascript.net/18_http.html#h_1Iqv5okrKE)
+
+----
+
+## Extra Reading Resources
+
+- [:+1: Callback Hell](http://callbackhell.com/)

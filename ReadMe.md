@@ -1,14 +1,16 @@
-# CPSC-1520 - **Student Workbook** (Sep 2024)
+# CPSC-1520 - **Student Workbook** (Jan 2025)
 
 > **STUDENT_NAME** - Place your name in this line.
 
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
+> **Content Advisory:** *I've been doing a lot of ad-hoc work in this repository lately, so some items may be out-of-date or disjointed. So the key to using this, your Student Workbook, is to **come to class** and see what we're up to.*
+
 This repository is your **Student Workbook** for participating in the in-class demos and for completing practice homework; the coding work is to be placed in the [*`src/`*](./src/ReadMe.md) folder. Learning Outcomes ([**LOGs**](./docs/logs/ReadMe.md)) and other useful notes can be found in the [**docs** folder](./docs), such as links to the [Reading Materials](./docs/Readings.md) for the course. Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes/ReadMe.md) folder to record your notes from each class.
 
 > :warning: **Do *NOT*** use this repository for any assignments that are worth marks. For work worth marks in this course, only use repositories set up/approved by your instructor. :warning:
 
-Additionally, you can find online notes at the course's [Moodle site](https://moodle.nait.ca) and on the two unofficial website notes: [current](https://cpsc-1520.github.io/cpsc1520/) and [legacy](https://cpsc-1520.github.io). Also be sure to checkout out the topical [**Learning Outcomes**](https://cpsc-1520.github.io/LOGs.html) used in class.
+Additionally, you can find online notes at the course's Brightspace site and on these unofficial website notes: [**current**](https://dgilleland.github.io/CPSC-1520) (a WIP since Dec 2024), [legacy](https://cpsc-1520.github.io/cpsc1520/) and [even older](https://cpsc-1520.github.io). Also be sure to checkout out the topical [**Learning Outcomes**](https://cpsc-1520.github.io/LOGs.html) used in class.
 
 ----
 
