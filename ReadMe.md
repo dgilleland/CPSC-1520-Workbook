@@ -1,12 +1,14 @@
-# CPSC-1520 - **Student Workbook** (Jan 2025)
+# CPSC-1520 - **Student Workbook** (Sep 2025)
 
 > **STUDENT_NAME** - Place your name in this line.
 
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
-This repository is your **Student Workbook** for participating in the in-class demos and for completing practice homework; the coding work is to be placed in the [*`src/`*](./src/ReadMe.md) folder. Learning Outcomes ([**LOGs**](./docs/logs/ReadMe.md)) and other useful notes can be found in the [**docs** folder](./docs), such as links to the [Reading Materials](./docs/Readings.md) for the course. Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes/ReadMe.md) folder to record your notes from each class.
+> 🚨 Sep 2025 is the final offering of CPSC-1520. Note that there are significant changes in this workbook for this final offering.
 
-> :warning: **Do *NOT*** use this repository for any assignments that are worth marks. For work worth marks in this course, only use repositories set up/approved by your instructor. :warning:
+This repository is your **Student Workbook** for participating in the in-class demos and for completing practice homework; the coding work is to be placed in the [*`src/`*](./src/ReadMe.md) folder. Useful notes can be found in the [**docs** folder](./docs), such as links to the [Reading Materials](./docs/Readings.md) for the course. Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes/ReadMe.md) folder to record your notes from each class.
+
+> 🚨 **Do *NOT*** use this repository for any assignments that are worth marks. For work worth marks in this course, only use repositories set up/approved by your instructor. 🚨
 
 The course's [Brightspace site](https://lms.nait.ca/d2l/home) contains official information. An *ad-hoc* site for tutorials, references, etc. has been set up by your instructor for this final Jan 2025 offering of this course: [**dgilleland.github.io/CPSC-1520/**](https://dgilleland.github.io/CPSC-1520/).
 
@@ -14,7 +16,7 @@ The course's [Brightspace site](https://lms.nait.ca/d2l/home) contains official 
 
 ## ![Version Control](./docs/images/tasks.png) Version Control
 
-At the end of the term, your repositories on the [CPSC-1520 GitHub Organization](https://github.com/CPSC-1520) will be removed. You will still have access to your local versions of these repositories for your personal use and review.
+At the end of the term, your GitHub Classroom repositories on will be removed. You will still have access to your local versions of these repositories for your personal use and review.
 
 > :warning: **Do *NOT*** re-publish your assignment/assessment repositories - doing so with any materials worth marks is an act of academic dishonesty :warning:
 
@@ -28,7 +30,6 @@ At the end of the term, your repositories on the [CPSC-1520 GitHub Organization]
 
 - **Software**
   - [**Visual Studio Code**](https://code.visualstudio.com) (see [Notes](#vs-code-extensions) on VS Code extensions) - This is the preferred editor for working in almost any programming language.
-    - [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Extension
   - [**git**](https://git-scm.com/downloads) - This is the beating heart of **Version Control**, something that you will work with every day. Second only to your editor in terms of usage, it's indispensible for managing your development in teams or on your own.
   - [**node**](https://nodejs.org/en/download/) (which includes **npm**) - Node is a run-time that allows you to use JavaScript on the web server. It comes along with npm (*Node Package Manager*), a package-management tool for the command line that allows you to integrate 3rd-party libraries with your application.
   - [**pnpm**](https://pnpm.io) - An alternative to Node's built-in `npm` tool, `pnpm` is much faster and more efficient to use.
@@ -52,7 +53,6 @@ Other recommended resources include:
 
 Here are some helpful VS Code Extensions for JavaScript, HTML, and CSS Development.
 
-- [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (by Ritwick Dey)
 - [Markdown All-In-One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) (by Yu Zhang)
 - [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) (by yzane)
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) (by Matt Bierner)
