@@ -1,4 +1,4 @@
-# CPSC-1520 - **Student Workbook** (Sep 2025)
+# CPSC-1520 - **Student Workbook** (Jan 2026)
 
 > **STUDENT_NAME** - Place your name in this line.
 
